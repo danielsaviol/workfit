@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE1C3CF64D2EAB39D1F8ADE /* Pods_WorkFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A68D46D701396C9A1F12569 /* Pods_WorkFitUITests.framework */; };
+		8FD0A4F59D8A8FC5B7CBFBFA /* Pods_WorkFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D258CD69419061184D8DAF /* Pods_WorkFit.framework */; };
+		A201217A1E6DFA710098AD7F /* CoachCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20121791E6DFA710098AD7F /* CoachCustomTableViewCell.swift */; };
+		A201217D1E6DFC670098AD7F /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201217B1E6DFC670098AD7F /* ExtensionView.swift */; };
+		A201217E1E6DFC670098AD7F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201217C1E6DFC670098AD7F /* Reachability.swift */; };
+		A226E4111E6F2A5B0012CD53 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226E4101E6F2A5B0012CD53 /* CustomUIView.swift */; };
+		A226E4131E6F2C040012CD53 /* CustomUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A226E4121E6F2C040012CD53 /* CustomUINavigationItem.swift */; };
+		A23C13321E5F5F740086E541 /* TxtFieldImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C13311E5F5F740086E541 /* TxtFieldImg.swift */; };
+		A23C13361E5F728D0086E541 /* UIButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C13351E5F728D0086E541 /* UIButtonRounded.swift */; };
+		A23C133A1E5F7F5C0086E541 /* UIButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C13391E5F7F5C0086E541 /* UIButtonBorder.swift */; };
+		A256CB811E5785B300F57C93 /* Tela1 BoasVindas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256CB801E5785B300F57C93 /* Tela1 BoasVindas.swift */; };
+		A256CB861E5785F500F57C93 /* barra1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A256CB821E5785F500F57C93 /* barra1.jpg */; };
+		A256CB871E5785F500F57C93 /* barra1.png in Resources */ = {isa = PBXBuildFile; fileRef = A256CB831E5785F500F57C93 /* barra1.png */; };
+		A256CB881E5785F500F57C93 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A256CB841E5785F500F57C93 /* logo.jpg */; };
+		A256CB891E5785F500F57C93 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A256CB851E5785F500F57C93 /* logo.png */; };
+		A256CB8D1E57955E00F57C93 /* ConfiguracoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256CB8A1E57955E00F57C93 /* ConfiguracoesViewController.swift */; };
+		A256CB8E1E57955E00F57C93 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256CB8B1E57955E00F57C93 /* PerfilViewController.swift */; };
+		A256CB8F1E57955E00F57C93 /* UsuariosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256CB8C1E57955E00F57C93 /* UsuariosViewController.swift */; };
+		A25A3B001E688B6B004340BC /* Tela5 Selecionar Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A3AFF1E688B6B004340BC /* Tela5 Selecionar Coach.swift */; };
+		A26391F21E69F5670026081B /* VisualizaAlimentacaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391E91E69F5670026081B /* VisualizaAlimentacaoTableViewController.swift */; };
+		A26391F41E69F5670026081B /* AlimentacaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391EB1E69F5670026081B /* AlimentacaoTableViewController.swift */; };
+		A26392011E69F66B0026081B /* treinoCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391F81E69F66B0026081B /* treinoCustomCell.swift */; };
+		A26392021E69F66B0026081B /* ConnectivityWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391F91E69F66B0026081B /* ConnectivityWatch.swift */; };
+		A26392051E69F66B0026081B /* TrainingCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391FC1E69F66B0026081B /* TrainingCustomCell.swift */; };
+		A26392061E69F66B0026081B /* FoodCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391FD1E69F66B0026081B /* FoodCustomCell.swift */; };
+		A26392081E69F66B0026081B /* VisualizaTreinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26391FF1E69F66B0026081B /* VisualizaTreinoTableViewController.swift */; };
+		A263920D1E69FA0D0026081B /* TreinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A263920C1E69FA0D0026081B /* TreinoTableViewController.swift */; };
+		A263920F1E69FAA50026081B /* DietCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A263920E1E69FAA50026081B /* DietCustomCell.swift */; };
+		A282E69B1E5621D6001C8FC2 /* Tela2 Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A282E69A1E5621D6001C8FC2 /* Tela2 Login.swift */; };
+		A282E69D1E56332F001C8FC2 /* Tela 3 Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A282E69C1E56332F001C8FC2 /* Tela 3 Cadastro.swift */; };
+		A28EA0CE1E53A03B007D4BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EA0CD1E53A03B007D4BC4 /* AppDelegate.swift */; };
+		A28EA0D31E53A03B007D4BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EA0D11E53A03B007D4BC4 /* Main.storyboard */; };
+		A28EA0D61E53A03B007D4BC4 /* WorkFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A28EA0D41E53A03B007D4BC4 /* WorkFit.xcdatamodeld */; };
+		A28EA0D81E53A03B007D4BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28EA0D71E53A03B007D4BC4 /* Assets.xcassets */; };
+		A28EA0DB1E53A03B007D4BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EA0D91E53A03B007D4BC4 /* LaunchScreen.storyboard */; };
+		A28EA0E61E53A03B007D4BC4 /* WorkFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EA0E51E53A03B007D4BC4 /* WorkFitTests.swift */; };
+		A28EA0F11E53A03B007D4BC4 /* WorkFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EA0F01E53A03B007D4BC4 /* WorkFitUITests.swift */; };
+		A2E1F75C1E71D93900B40375 /* UserConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F75B1E71D93900B40375 /* UserConfigTableViewController.swift */; };
+		EC03C75C1E6EFE84003D5FE5 /* EditarTreinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03C7591E6EFE84003D5FE5 /* EditarTreinoViewController.swift */; };
+		EC03C75D1E6EFE84003D5FE5 /* RefeicoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03C75A1E6EFE84003D5FE5 /* RefeicoesViewController.swift */; };
+		EC03C75E1E6EFE84003D5FE5 /* TelaUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03C75B1E6EFE84003D5FE5 /* TelaUsuarioViewController.swift */; };
+		EC03C7611E6EFE91003D5FE5 /* AdicionaAlimentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03C75F1E6EFE91003D5FE5 /* AdicionaAlimentosViewController.swift */; };
+		EC03C7621E6EFE91003D5FE5 /* AlimentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03C7601E6EFE91003D5FE5 /* AlimentosViewController.swift */; };
+		EC0D82881E6934860014730E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC0D82871E6934860014730E /* GoogleService-Info.plist */; };
+		EC1159FD1E7260DF006EA939 /* AlterarSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1159FC1E7260DE006EA939 /* AlterarSenhaViewController.swift */; };
+		EC1159FF1E726135006EA939 /* FichaDeTreinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1159FE1E726135006EA939 /* FichaDeTreinoTableViewController.swift */; };
+		EC115A021E729737006EA939 /* CadastrarCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC115A011E729737006EA939 /* CadastrarCoachViewController.swift */; };
+		EC1DC0D51E64E2F70079F5F1 /* Tela4 Prosseguir Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC0D41E64E2F70079F5F1 /* Tela4 Prosseguir Cadastro.swift */; };
+		FA2F0761FEE3AEAF79C3D4F5 /* Pods_WorkFitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61881E60C7C651237F331F02 /* Pods_WorkFitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28EA0E21E53A03B007D4BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EA0C21E53A03B007D4BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28EA0C91E53A03B007D4BC4;
+			remoteInfo = WorkFit;
+		};
+		A28EA0ED1E53A03B007D4BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EA0C21E53A03B007D4BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28EA0C91E53A03B007D4BC4;
+			remoteInfo = WorkFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B069203BA7BA193539192C8 /* Pods-WorkFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFitTests/Pods-WorkFitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C531BCD7D226812179C0F6C /* Pods-WorkFitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFitTests/Pods-WorkFitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A68D46D701396C9A1F12569 /* Pods_WorkFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D258CD69419061184D8DAF /* Pods_WorkFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570D4BE7CC6C3BA9098CEAFB /* Pods-WorkFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFit/Pods-WorkFit.debug.xcconfig"; sourceTree = "<group>"; };
+		61881E60C7C651237F331F02 /* Pods_WorkFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935436C38E838419908F19C /* Pods-WorkFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFit/Pods-WorkFit.release.xcconfig"; sourceTree = "<group>"; };
+		7822B4A2A18639F5ED91190B /* Pods-WorkFitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFitUITests/Pods-WorkFitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A20121791E6DFA710098AD7F /* CoachCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachCustomTableViewCell.swift; sourceTree = "<group>"; };
+		A201217B1E6DFC670098AD7F /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		A201217C1E6DFC670098AD7F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A226E4101E6F2A5B0012CD53 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		A226E4121E6F2C040012CD53 /* CustomUINavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUINavigationItem.swift; sourceTree = "<group>"; };
+		A23C13311E5F5F740086E541 /* TxtFieldImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtFieldImg.swift; sourceTree = "<group>"; };
+		A23C13351E5F728D0086E541 /* UIButtonRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonRounded.swift; sourceTree = "<group>"; };
+		A23C13391E5F7F5C0086E541 /* UIButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBorder.swift; sourceTree = "<group>"; };
+		A256CB801E5785B300F57C93 /* Tela1 BoasVindas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tela1 BoasVindas.swift"; sourceTree = "<group>"; };
+		A256CB821E5785F500F57C93 /* barra1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barra1.jpg; path = img/barra1.jpg; sourceTree = "<group>"; };
+		A256CB831E5785F500F57C93 /* barra1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barra1.png; path = img/barra1.png; sourceTree = "<group>"; };
+		A256CB841E5785F500F57C93 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = img/logo.jpg; sourceTree = "<group>"; };
+		A256CB851E5785F500F57C93 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = img/logo.png; sourceTree = "<group>"; };
+		A256CB8A1E57955E00F57C93 /* ConfiguracoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfiguracoesViewController.swift; sourceTree = "<group>"; };
+		A256CB8B1E57955E00F57C93 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		A256CB8C1E57955E00F57C93 /* UsuariosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuariosViewController.swift; sourceTree = "<group>"; };
+		A25A3AFF1E688B6B004340BC /* Tela5 Selecionar Coach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tela5 Selecionar Coach.swift"; sourceTree = "<group>"; };
+		A26391E91E69F5670026081B /* VisualizaAlimentacaoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizaAlimentacaoTableViewController.swift; sourceTree = "<group>"; };
+		A26391EB1E69F5670026081B /* AlimentacaoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentacaoTableViewController.swift; sourceTree = "<group>"; };
+		A26391F81E69F66B0026081B /* treinoCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = treinoCustomCell.swift; sourceTree = "<group>"; };
+		A26391F91E69F66B0026081B /* ConnectivityWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityWatch.swift; sourceTree = "<group>"; };
+		A26391FC1E69F66B0026081B /* TrainingCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCustomCell.swift; sourceTree = "<group>"; };
+		A26391FD1E69F66B0026081B /* FoodCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCustomCell.swift; sourceTree = "<group>"; };
+		A26391FF1E69F66B0026081B /* VisualizaTreinoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizaTreinoTableViewController.swift; sourceTree = "<group>"; };
+		A263920C1E69FA0D0026081B /* TreinoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreinoTableViewController.swift; sourceTree = "<group>"; };
+		A263920E1E69FAA50026081B /* DietCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietCustomCell.swift; sourceTree = "<group>"; };
+		A282E69A1E5621D6001C8FC2 /* Tela2 Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tela2 Login.swift"; sourceTree = "<group>"; };
+		A282E69C1E56332F001C8FC2 /* Tela 3 Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tela 3 Cadastro.swift"; sourceTree = "<group>"; };
+		A28EA0CA1E53A03B007D4BC4 /* WorkFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28EA0CD1E53A03B007D4BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A28EA0D21E53A03B007D4BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28EA0D51E53A03B007D4BC4 /* WorkFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkFit.xcdatamodel; sourceTree = "<group>"; };
+		A28EA0D71E53A03B007D4BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A28EA0DA1E53A03B007D4BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A28EA0DC1E53A03B007D4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28EA0E11E53A03B007D4BC4 /* WorkFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28EA0E51E53A03B007D4BC4 /* WorkFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkFitTests.swift; sourceTree = "<group>"; };
+		A28EA0E71E53A03B007D4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28EA0EC1E53A03B007D4BC4 /* WorkFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28EA0F01E53A03B007D4BC4 /* WorkFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkFitUITests.swift; sourceTree = "<group>"; };
+		A28EA0F21E53A03B007D4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E1F75B1E71D93900B40375 /* UserConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConfigTableViewController.swift; sourceTree = "<group>"; };
+		C830774B5E1E9B580B6D40BF /* Pods-WorkFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFitUITests/Pods-WorkFitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC03C7591E6EFE84003D5FE5 /* EditarTreinoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarTreinoViewController.swift; sourceTree = "<group>"; };
+		EC03C75A1E6EFE84003D5FE5 /* RefeicoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefeicoesViewController.swift; sourceTree = "<group>"; };
+		EC03C75B1E6EFE84003D5FE5 /* TelaUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaUsuarioViewController.swift; sourceTree = "<group>"; };
+		EC03C75F1E6EFE91003D5FE5 /* AdicionaAlimentosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionaAlimentosViewController.swift; sourceTree = "<group>"; };
+		EC03C7601E6EFE91003D5FE5 /* AlimentosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentosViewController.swift; sourceTree = "<group>"; };
+		EC0D82871E6934860014730E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC1159FC1E7260DE006EA939 /* AlterarSenhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlterarSenhaViewController.swift; sourceTree = "<group>"; };
+		EC1159FE1E726135006EA939 /* FichaDeTreinoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FichaDeTreinoTableViewController.swift; sourceTree = "<group>"; };
+		EC115A001E727200006EA939 /* WorkFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkFit.entitlements; sourceTree = "<group>"; };
+		EC115A011E729737006EA939 /* CadastrarCoachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastrarCoachViewController.swift; sourceTree = "<group>"; };
+		EC1DC0D41E64E2F70079F5F1 /* Tela4 Prosseguir Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tela4 Prosseguir Cadastro.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28EA0C71E53A03B007D4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD0A4F59D8A8FC5B7CBFBFA /* Pods_WorkFit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0DE1E53A03B007D4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F0761FEE3AEAF79C3D4F5 /* Pods_WorkFitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0E91E53A03B007D4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE1C3CF64D2EAB39D1F8ADE /* Pods_WorkFitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A282E68F1E561EA5001C8FC2 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				A256CB821E5785F500F57C93 /* barra1.jpg */,
+				A256CB831E5785F500F57C93 /* barra1.png */,
+				A256CB841E5785F500F57C93 /* logo.jpg */,
+				A256CB851E5785F500F57C93 /* logo.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		A28EA0C11E53A03B007D4BC4 = {
+			isa = PBXGroup;
+			children = (
+				A28EA0CC1E53A03B007D4BC4 /* WorkFit */,
+				A28EA0E41E53A03B007D4BC4 /* WorkFitTests */,
+				A28EA0EF1E53A03B007D4BC4 /* WorkFitUITests */,
+				A28EA0CB1E53A03B007D4BC4 /* Products */,
+				A282E68F1E561EA5001C8FC2 /* Img */,
+				CB3D3CA71400331541D11F59 /* Pods */,
+				CAEA3D7C8A04ABD52CFD2555 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A28EA0CB1E53A03B007D4BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28EA0CA1E53A03B007D4BC4 /* WorkFit.app */,
+				A28EA0E11E53A03B007D4BC4 /* WorkFitTests.xctest */,
+				A28EA0EC1E53A03B007D4BC4 /* WorkFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28EA0CC1E53A03B007D4BC4 /* WorkFit */ = {
+			isa = PBXGroup;
+			children = (
+				EC115A001E727200006EA939 /* WorkFit.entitlements */,
+				EC1159FE1E726135006EA939 /* FichaDeTreinoTableViewController.swift */,
+				EC1159FC1E7260DE006EA939 /* AlterarSenhaViewController.swift */,
+				A2E1F75B1E71D93900B40375 /* UserConfigTableViewController.swift */,
+				A226E4101E6F2A5B0012CD53 /* CustomUIView.swift */,
+				A226E4121E6F2C040012CD53 /* CustomUINavigationItem.swift */,
+				EC03C75F1E6EFE91003D5FE5 /* AdicionaAlimentosViewController.swift */,
+				EC03C7601E6EFE91003D5FE5 /* AlimentosViewController.swift */,
+				EC03C7591E6EFE84003D5FE5 /* EditarTreinoViewController.swift */,
+				EC03C75A1E6EFE84003D5FE5 /* RefeicoesViewController.swift */,
+				EC03C75B1E6EFE84003D5FE5 /* TelaUsuarioViewController.swift */,
+				A263920E1E69FAA50026081B /* DietCustomCell.swift */,
+				A263920C1E69FA0D0026081B /* TreinoTableViewController.swift */,
+				A26391F81E69F66B0026081B /* treinoCustomCell.swift */,
+				A26391F91E69F66B0026081B /* ConnectivityWatch.swift */,
+				A26391FC1E69F66B0026081B /* TrainingCustomCell.swift */,
+				A26391FD1E69F66B0026081B /* FoodCustomCell.swift */,
+				A26391FF1E69F66B0026081B /* VisualizaTreinoTableViewController.swift */,
+				A26391E91E69F5670026081B /* VisualizaAlimentacaoTableViewController.swift */,
+				A26391EB1E69F5670026081B /* AlimentacaoTableViewController.swift */,
+				EC0D82871E6934860014730E /* GoogleService-Info.plist */,
+				A25A3AFF1E688B6B004340BC /* Tela5 Selecionar Coach.swift */,
+				EC1DC0D41E64E2F70079F5F1 /* Tela4 Prosseguir Cadastro.swift */,
+				A256CB8A1E57955E00F57C93 /* ConfiguracoesViewController.swift */,
+				A256CB8B1E57955E00F57C93 /* PerfilViewController.swift */,
+				A256CB8C1E57955E00F57C93 /* UsuariosViewController.swift */,
+				A28EA0CD1E53A03B007D4BC4 /* AppDelegate.swift */,
+				A28EA0D11E53A03B007D4BC4 /* Main.storyboard */,
+				EC115A011E729737006EA939 /* CadastrarCoachViewController.swift */,
+				A28EA0D71E53A03B007D4BC4 /* Assets.xcassets */,
+				A28EA0D91E53A03B007D4BC4 /* LaunchScreen.storyboard */,
+				A28EA0DC1E53A03B007D4BC4 /* Info.plist */,
+				A28EA0D41E53A03B007D4BC4 /* WorkFit.xcdatamodeld */,
+				A256CB801E5785B300F57C93 /* Tela1 BoasVindas.swift */,
+				A23C13351E5F728D0086E541 /* UIButtonRounded.swift */,
+				A282E69A1E5621D6001C8FC2 /* Tela2 Login.swift */,
+				A282E69C1E56332F001C8FC2 /* Tela 3 Cadastro.swift */,
+				A23C13311E5F5F740086E541 /* TxtFieldImg.swift */,
+				A23C13391E5F7F5C0086E541 /* UIButtonBorder.swift */,
+				A20121791E6DFA710098AD7F /* CoachCustomTableViewCell.swift */,
+				A201217B1E6DFC670098AD7F /* ExtensionView.swift */,
+				A201217C1E6DFC670098AD7F /* Reachability.swift */,
+			);
+			path = WorkFit;
+			sourceTree = "<group>";
+		};
+		A28EA0E41E53A03B007D4BC4 /* WorkFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28EA0E51E53A03B007D4BC4 /* WorkFitTests.swift */,
+				A28EA0E71E53A03B007D4BC4 /* Info.plist */,
+			);
+			path = WorkFitTests;
+			sourceTree = "<group>";
+		};
+		A28EA0EF1E53A03B007D4BC4 /* WorkFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A28EA0F01E53A03B007D4BC4 /* WorkFitUITests.swift */,
+				A28EA0F21E53A03B007D4BC4 /* Info.plist */,
+			);
+			path = WorkFitUITests;
+			sourceTree = "<group>";
+		};
+		CAEA3D7C8A04ABD52CFD2555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54D258CD69419061184D8DAF /* Pods_WorkFit.framework */,
+				61881E60C7C651237F331F02 /* Pods_WorkFitTests.framework */,
+				4A68D46D701396C9A1F12569 /* Pods_WorkFitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3D3CA71400331541D11F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				570D4BE7CC6C3BA9098CEAFB /* Pods-WorkFit.debug.xcconfig */,
+				6935436C38E838419908F19C /* Pods-WorkFit.release.xcconfig */,
+				0B069203BA7BA193539192C8 /* Pods-WorkFitTests.debug.xcconfig */,
+				3C531BCD7D226812179C0F6C /* Pods-WorkFitTests.release.xcconfig */,
+				7822B4A2A18639F5ED91190B /* Pods-WorkFitUITests.debug.xcconfig */,
+				C830774B5E1E9B580B6D40BF /* Pods-WorkFitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28EA0C91E53A03B007D4BC4 /* WorkFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28EA0F51E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFit" */;
+			buildPhases = (
+				D658A3BDFFA77243273783B1 /* [CP] Check Pods Manifest.lock */,
+				A28EA0C61E53A03B007D4BC4 /* Sources */,
+				A28EA0C71E53A03B007D4BC4 /* Frameworks */,
+				A28EA0C81E53A03B007D4BC4 /* Resources */,
+				6C72AE7232BEFDB440EA61D5 /* [CP] Embed Pods Frameworks */,
+				90692B17E5BE454B9C5583B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkFit;
+			productName = WorkFit;
+			productReference = A28EA0CA1E53A03B007D4BC4 /* WorkFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28EA0E01E53A03B007D4BC4 /* WorkFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28EA0F81E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFitTests" */;
+			buildPhases = (
+				8CBDA7AEDD31FBD45A55A5C5 /* [CP] Check Pods Manifest.lock */,
+				A28EA0DD1E53A03B007D4BC4 /* Sources */,
+				A28EA0DE1E53A03B007D4BC4 /* Frameworks */,
+				A28EA0DF1E53A03B007D4BC4 /* Resources */,
+				C2E2379FB5F9FC84806C41EA /* [CP] Embed Pods Frameworks */,
+				7E4B9FA2B2AEF455100E13CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28EA0E31E53A03B007D4BC4 /* PBXTargetDependency */,
+			);
+			name = WorkFitTests;
+			productName = WorkFitTests;
+			productReference = A28EA0E11E53A03B007D4BC4 /* WorkFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A28EA0EB1E53A03B007D4BC4 /* WorkFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28EA0FB1E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFitUITests" */;
+			buildPhases = (
+				E8386CB0246A08C081B1B50C /* [CP] Check Pods Manifest.lock */,
+				A28EA0E81E53A03B007D4BC4 /* Sources */,
+				A28EA0E91E53A03B007D4BC4 /* Frameworks */,
+				A28EA0EA1E53A03B007D4BC4 /* Resources */,
+				3C7F89EBCDDE8286AAE88205 /* [CP] Embed Pods Frameworks */,
+				91A1EDE047E008849A2BA2EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28EA0EE1E53A03B007D4BC4 /* PBXTargetDependency */,
+			);
+			name = WorkFitUITests;
+			productName = WorkFitUITests;
+			productReference = A28EA0EC1E53A03B007D4BC4 /* WorkFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28EA0C21E53A03B007D4BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Work Fit Team";
+				TargetAttributes = {
+					A28EA0C91E53A03B007D4BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q4B7FU3QU4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					A28EA0E01E53A03B007D4BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A28EA0C91E53A03B007D4BC4;
+					};
+					A28EA0EB1E53A03B007D4BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A28EA0C91E53A03B007D4BC4;
+					};
+				};
+			};
+			buildConfigurationList = A28EA0C51E53A03B007D4BC4 /* Build configuration list for PBXProject "WorkFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28EA0C11E53A03B007D4BC4;
+			productRefGroup = A28EA0CB1E53A03B007D4BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28EA0C91E53A03B007D4BC4 /* WorkFit */,
+				A28EA0E01E53A03B007D4BC4 /* WorkFitTests */,
+				A28EA0EB1E53A03B007D4BC4 /* WorkFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28EA0C81E53A03B007D4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A256CB871E5785F500F57C93 /* barra1.png in Resources */,
+				EC0D82881E6934860014730E /* GoogleService-Info.plist in Resources */,
+				A28EA0DB1E53A03B007D4BC4 /* LaunchScreen.storyboard in Resources */,
+				A28EA0D81E53A03B007D4BC4 /* Assets.xcassets in Resources */,
+				A256CB891E5785F500F57C93 /* logo.png in Resources */,
+				A256CB881E5785F500F57C93 /* logo.jpg in Resources */,
+				A256CB861E5785F500F57C93 /* barra1.jpg in Resources */,
+				A28EA0D31E53A03B007D4BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0DF1E53A03B007D4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0EA1E53A03B007D4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C7F89EBCDDE8286AAE88205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFitUITests/Pods-WorkFitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C72AE7232BEFDB440EA61D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFit/Pods-WorkFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4B9FA2B2AEF455100E13CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFitTests/Pods-WorkFitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBDA7AEDD31FBD45A55A5C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90692B17E5BE454B9C5583B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFit/Pods-WorkFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A1EDE047E008849A2BA2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFitUITests/Pods-WorkFitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E2379FB5F9FC84806C41EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkFitTests/Pods-WorkFitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D658A3BDFFA77243273783B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8386CB0246A08C081B1B50C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28EA0C61E53A03B007D4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A256CB8F1E57955E00F57C93 /* UsuariosViewController.swift in Sources */,
+				A201217A1E6DFA710098AD7F /* CoachCustomTableViewCell.swift in Sources */,
+				A2E1F75C1E71D93900B40375 /* UserConfigTableViewController.swift in Sources */,
+				EC115A021E729737006EA939 /* CadastrarCoachViewController.swift in Sources */,
+				A26392061E69F66B0026081B /* FoodCustomCell.swift in Sources */,
+				EC1159FF1E726135006EA939 /* FichaDeTreinoTableViewController.swift in Sources */,
+				A282E69B1E5621D6001C8FC2 /* Tela2 Login.swift in Sources */,
+				A23C133A1E5F7F5C0086E541 /* UIButtonBorder.swift in Sources */,
+				A256CB8D1E57955E00F57C93 /* ConfiguracoesViewController.swift in Sources */,
+				A256CB8E1E57955E00F57C93 /* PerfilViewController.swift in Sources */,
+				EC1159FD1E7260DF006EA939 /* AlterarSenhaViewController.swift in Sources */,
+				A28EA0D61E53A03B007D4BC4 /* WorkFit.xcdatamodeld in Sources */,
+				A23C13361E5F728D0086E541 /* UIButtonRounded.swift in Sources */,
+				EC03C75D1E6EFE84003D5FE5 /* RefeicoesViewController.swift in Sources */,
+				A282E69D1E56332F001C8FC2 /* Tela 3 Cadastro.swift in Sources */,
+				EC03C7621E6EFE91003D5FE5 /* AlimentosViewController.swift in Sources */,
+				A25A3B001E688B6B004340BC /* Tela5 Selecionar Coach.swift in Sources */,
+				A26392081E69F66B0026081B /* VisualizaTreinoTableViewController.swift in Sources */,
+				A26391F41E69F5670026081B /* AlimentacaoTableViewController.swift in Sources */,
+				A226E4131E6F2C040012CD53 /* CustomUINavigationItem.swift in Sources */,
+				A263920F1E69FAA50026081B /* DietCustomCell.swift in Sources */,
+				A26392011E69F66B0026081B /* treinoCustomCell.swift in Sources */,
+				A226E4111E6F2A5B0012CD53 /* CustomUIView.swift in Sources */,
+				A263920D1E69FA0D0026081B /* TreinoTableViewController.swift in Sources */,
+				EC03C7611E6EFE91003D5FE5 /* AdicionaAlimentosViewController.swift in Sources */,
+				EC1DC0D51E64E2F70079F5F1 /* Tela4 Prosseguir Cadastro.swift in Sources */,
+				A26392021E69F66B0026081B /* ConnectivityWatch.swift in Sources */,
+				EC03C75E1E6EFE84003D5FE5 /* TelaUsuarioViewController.swift in Sources */,
+				EC03C75C1E6EFE84003D5FE5 /* EditarTreinoViewController.swift in Sources */,
+				A26392051E69F66B0026081B /* TrainingCustomCell.swift in Sources */,
+				A23C13321E5F5F740086E541 /* TxtFieldImg.swift in Sources */,
+				A256CB811E5785B300F57C93 /* Tela1 BoasVindas.swift in Sources */,
+				A26391F21E69F5670026081B /* VisualizaAlimentacaoTableViewController.swift in Sources */,
+				A201217D1E6DFC670098AD7F /* ExtensionView.swift in Sources */,
+				A201217E1E6DFC670098AD7F /* Reachability.swift in Sources */,
+				A28EA0CE1E53A03B007D4BC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0DD1E53A03B007D4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28EA0E61E53A03B007D4BC4 /* WorkFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28EA0E81E53A03B007D4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28EA0F11E53A03B007D4BC4 /* WorkFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28EA0E31E53A03B007D4BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28EA0C91E53A03B007D4BC4 /* WorkFit */;
+			targetProxy = A28EA0E21E53A03B007D4BC4 /* PBXContainerItemProxy */;
+		};
+		A28EA0EE1E53A03B007D4BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28EA0C91E53A03B007D4BC4 /* WorkFit */;
+			targetProxy = A28EA0ED1E53A03B007D4BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28EA0D11E53A03B007D4BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28EA0D21E53A03B007D4BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28EA0D91E53A03B007D4BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28EA0DA1E53A03B007D4BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28EA0F31E53A03B007D4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A28EA0F41E53A03B007D4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28EA0F61E53A03B007D4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570D4BE7CC6C3BA9098CEAFB /* Pods-WorkFit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4B7FU3QU4;
+				INFOPLIST_FILE = WorkFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A28EA0F71E53A03B007D4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6935436C38E838419908F19C /* Pods-WorkFit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4B7FU3QU4;
+				INFOPLIST_FILE = WorkFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A28EA0F91E53A03B007D4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B069203BA7BA193539192C8 /* Pods-WorkFitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WorkFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkFit.app/WorkFit";
+			};
+			name = Debug;
+		};
+		A28EA0FA1E53A03B007D4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C531BCD7D226812179C0F6C /* Pods-WorkFitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WorkFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkFit.app/WorkFit";
+			};
+			name = Release;
+		};
+		A28EA0FC1E53A03B007D4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7822B4A2A18639F5ED91190B /* Pods-WorkFitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WorkFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WorkFit;
+			};
+			name = Debug;
+		};
+		A28EA0FD1E53A03B007D4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C830774B5E1E9B580B6D40BF /* Pods-WorkFitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WorkFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifce.WorkFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WorkFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28EA0C51E53A03B007D4BC4 /* Build configuration list for PBXProject "WorkFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28EA0F31E53A03B007D4BC4 /* Debug */,
+				A28EA0F41E53A03B007D4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28EA0F51E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28EA0F61E53A03B007D4BC4 /* Debug */,
+				A28EA0F71E53A03B007D4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28EA0F81E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28EA0F91E53A03B007D4BC4 /* Debug */,
+				A28EA0FA1E53A03B007D4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28EA0FB1E53A03B007D4BC4 /* Build configuration list for PBXNativeTarget "WorkFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28EA0FC1E53A03B007D4BC4 /* Debug */,
+				A28EA0FD1E53A03B007D4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A28EA0D41E53A03B007D4BC4 /* WorkFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A28EA0D51E53A03B007D4BC4 /* WorkFit.xcdatamodel */,
+			);
+			currentVersion = A28EA0D51E53A03B007D4BC4 /* WorkFit.xcdatamodel */;
+			path = WorkFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A28EA0C21E53A03B007D4BC4 /* Project object */;
+}
